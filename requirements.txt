@@ -1,0 +1,7 @@
+streamlit
+pyyaml
+spaCy
+nltk
+whisper
+gTTS
+googletrans==4.0.0-rc1
