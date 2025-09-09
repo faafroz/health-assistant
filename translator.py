@@ -20,12 +20,15 @@ LANG_CODES = {
 
 def translate_text(text, dest_language):
     """
-    Translate text to the target Phase 1 language using Google Translate.
-    dest_language: full language name, e.g., 'Spanish', 'Hindi'
+    Translate text to the target Phase 1 language.
+    Fallback to English if translation fails.
     """
+    if dest_language == "English":
+        return text
     try:
         lang_code = LANG_CODES.get(dest_language, "en")
         translated = translator.translate(text, dest=lang_code)
         return translated.text
     except Exception as e:
-        return f"Translation error: {e}"
+        # fallback to English
+        return text
