@@ -1,54 +1,54 @@
 responses:
   - intent: "fever"
-    keywords: ["fever", "high temperature", "temperature", "hot", "feeling feverish"]
+    keywords: ["fever", "high temperature", "hot", "temperature"]
     question: "I have a fever. What should I do?"
     answer: "Stay hydrated, rest, and monitor your temperature. Seek medical attention if it exceeds 103°F."
     disclaimer: "This is general advice. Consult a healthcare professional for personal guidance."
 
   - intent: "headache"
-    keywords: ["headache", "my head hurts", "migraine", "head pain"]
+    keywords: ["headache", "head hurts", "migraine", "pain in head"]
     question: "I have a headache."
     answer: "Drink water, rest in a dark room, and consider over-the-counter pain relief if needed."
     disclaimer: "This is general advice. Consult a healthcare professional if pain persists."
 
   - intent: "cold"
-    keywords: ["cold", "common cold", "sneezing", "runny nose", "stuffy nose"]
+    keywords: ["cold", "runny nose", "sneeze", "chills"]
     question: "I have a common cold."
     answer: "Rest, stay hydrated, and use saline nasal spray if needed. Avoid close contact with others."
     disclaimer: "This is general advice. Consult a healthcare professional if symptoms worsen."
 
   - intent: "cough"
-    keywords: ["cough", "coughing", "dry cough", "wet cough", "chest tickle"]
+    keywords: ["cough", "coughing", "dry cough", "wet cough"]
     question: "I have a cough."
     answer: "Stay hydrated, use honey or warm fluids, and monitor for severe symptoms like shortness of breath."
     disclaimer: "This is general advice. Seek medical attention for persistent or severe cough."
 
   - intent: "sore_throat"
-    keywords: ["sore throat", "throat hurts", "throat pain", "scratchy throat"]
+    keywords: ["sore throat", "throat hurts", "painful throat", "throat pain"]
     question: "My throat hurts."
     answer: "Gargle with warm salt water, stay hydrated, and rest your voice."
     disclaimer: "This is general advice. Consult a doctor if pain persists."
 
   - intent: "stomach_pain"
-    keywords: ["stomach pain", "tummy ache", "abdominal pain", "my stomach hurts"]
+    keywords: ["stomach pain", "tummy ache", "abdomen hurts", "belly pain"]
     question: "I have stomach pain."
     answer: "Avoid heavy meals, stay hydrated, and rest. Seek medical care if pain is severe or persistent."
     disclaimer: "This is general advice. Consult a healthcare professional for serious conditions."
 
   - intent: "diarrhea"
-    keywords: ["diarrhea", "loose stools", "runny poop", "frequent bowel movement"]
+    keywords: ["diarrhea", "loose stools", "runny stools", "watery stool"]
     question: "I have diarrhea."
     answer: "Drink plenty of fluids and consider oral rehydration solutions. Avoid dairy temporarily."
     disclaimer: "This is general advice. See a doctor if diarrhea is severe or lasts more than 2 days."
 
   - intent: "constipation"
-    keywords: ["constipation", "hard stools", "difficulty passing stool"]
+    keywords: ["constipation", "cannot poop", "hard stools", "irregular bowel"]
     question: "I am constipated."
     answer: "Eat high-fiber foods, drink water, and exercise lightly."
     disclaimer: "This is general advice. Seek medical advice if constipation persists."
 
   - intent: "allergy"
-    keywords: ["allergy", "allergic reaction", "itchy", "sneezing", "rashes"]
+    keywords: ["allergy", "sneezing", "itchy", "rash", "allergic"]
     question: "I have allergy symptoms."
     answer: "Avoid allergens, consider antihistamines, and monitor for severe reactions."
     disclaimer: "This is general advice. Seek emergency care for severe allergic reactions."
@@ -60,97 +60,97 @@ responses:
     disclaimer: "Follow your healthcare plan. Seek emergency care for severe attacks."
 
   - intent: "backpain"
-    keywords: ["back pain", "hurt my back", "lower back pain", "my back hurts"]
+    keywords: ["back pain", "hurt myself", "lower back", "ache in back"]
     question: "I have back pain."
     answer: "Rest, use heat or gentle stretching, and avoid heavy lifting."
     disclaimer: "This is general advice. Consult a doctor if pain persists."
 
   - intent: "jointpain"
-    keywords: ["joint pain", "my joints hurt", "arthritis", "stiff joints"]
+    keywords: ["joint pain", "joints hurt", "knee pain", "elbow pain", "arthralgia"]
     question: "My joints hurt."
     answer: "Rest, apply ice or heat, and take over-the-counter pain relief if necessary."
     disclaimer: "This is general advice. See a healthcare professional if pain continues."
 
   - intent: "musclecramp"
-    keywords: ["muscle cramp", "cramp", "leg cramp", "muscle spasm"]
+    keywords: ["muscle cramp", "leg cramp", "calf cramp", "muscle pain"]
     question: "I have a muscle cramp."
     answer: "Stretch the affected muscle, stay hydrated, and massage gently."
     disclaimer: "This is general advice."
 
   - intent: "insomnia"
-    keywords: ["insomnia", "cannot sleep", "trouble sleeping", "sleepless"]
+    keywords: ["insomnia", "cannot sleep", "trouble sleeping", "sleep problems"]
     question: "I cannot sleep well."
     answer: "Maintain a regular sleep schedule, avoid screens before bed, and relax before sleeping."
     disclaimer: "This is general advice. Consult a doctor if insomnia persists."
 
   - intent: "anxiety"
-    keywords: ["anxiety", "anxious", "nervous", "worried", "stress"]
+    keywords: ["anxiety", "stressed", "nervous", "worried", "tense"]
     question: "I feel anxious."
     answer: "Practice deep breathing, mindfulness, and talk to someone you trust."
     disclaimer: "This is general advice. Seek professional help if anxiety is severe."
 
   - intent: "depression"
-    keywords: ["depression", "sad", "down", "hopeless", "low mood"]
+    keywords: ["depression", "sad", "low mood", "hopeless", "unhappy"]
     question: "I feel depressed."
     answer: "Reach out to a mental health professional and maintain social support."
     disclaimer: "This is general advice. Professional care is recommended."
 
-  - intent: "high_blood_pressure"
+  - intent: "high blood-pressure"
     keywords: ["high blood pressure", "hypertension", "bp high"]
     question: "My blood pressure is high."
     answer: "Monitor regularly, reduce salt intake, exercise, and follow your doctor’s advice."
     disclaimer: "This is general advice. Follow your healthcare provider’s instructions."
 
-  - intent: "low_blood_pressure"
+  - intent: "low blood-pressure"
     keywords: ["low blood pressure", "hypotension", "bp low"]
     question: "My blood pressure is low."
     answer: "Stay hydrated, eat small frequent meals, and rise slowly from sitting."
     disclaimer: "This is general advice. Seek medical advice if symptoms persist."
 
   - intent: "diabetes"
-    keywords: ["diabetes", "high sugar", "blood sugar", "sugar level"]
+    keywords: ["diabetes", "high sugar", "blood sugar", "glucose"]
     question: "I have diabetes."
     answer: "Monitor blood sugar, follow your diet and medication plan, and exercise moderately."
     disclaimer: "This is general advice. Follow your healthcare provider’s instructions."
 
   - intent: "nausea"
-    keywords: ["nausea", "feel nauseous", "queasy", "sick to stomach"]
+    keywords: ["nausea", "feel sick", "queasy"]
     question: "I feel nauseous."
     answer: "Rest, sip clear fluids, and eat bland foods slowly."
     disclaimer: "This is general advice. Seek medical care if nausea is severe or persistent."
 
   - intent: "vomiting"
-    keywords: ["vomiting", "throwing up", "puke", "emesis"]
+    keywords: ["vomiting", "throw up", "puke"]
     question: "I am vomiting."
     answer: "Stay hydrated and avoid solid foods until symptoms improve."
     disclaimer: "This is general advice. Seek medical attention if vomiting is severe."
 
   - intent: "dehydration"
-    keywords: ["dehydration", "thirsty", "dry mouth", "feeling dehydrated"]
+    keywords: ["dehydration", "thirsty", "dry mouth"]
     question: "I feel dehydrated."
     answer: "Drink water or oral rehydration solution and rest."
     disclaimer: "This is general advice. Seek medical help if severe."
 
   - intent: "flu"
-    keywords: ["flu", "influenza", "fever and aches", "body aches"]
+    keywords: ["flu", "influenza", "fever and body aches"]
     question: "I think I have the flu."
     answer: "Rest, stay hydrated, and consider over-the-counter relief for fever and body aches."
     disclaimer: "This is general advice. See a doctor if symptoms worsen."
 
-  - intent: "cold_virus"
-    keywords: ["cold virus", "viral cold", "common cold virus"]
+  - intent: "cold virus"
+    keywords: ["cold virus", "common cold", "virus"]
     question: "I have a cold virus."
     answer: "Rest, hydrate, and use saline nasal sprays or lozenges for relief."
     disclaimer: "This is general advice."
 
-  - intent: "skin_rash"
-    keywords: ["skin rash", "rash", "itchy skin", "red skin"]
+  - intent: "skin rash"
+    keywords: ["rash", "skin rash", "red spots", "itchy skin"]
     question: "I have a skin rash."
     answer: "Keep the area clean and dry. Avoid scratching."
     disclaimer: "This is general advice. See a doctor for severe or spreading rashes."
 
   - intent: "burn"
-    keywords: ["burn", "minor burn", "small burn", "scald"]
+    keywords: ["burn", "minor burn", "scald"]
     question: "I have a minor burn."
     answer: "Cool the burn under running water and cover with a clean dressing."
     disclaimer: "This is general advice. Seek medical care for severe burns."
@@ -162,20 +162,19 @@ responses:
     disclaimer: "This is general advice. Seek medical care if bleeding persists."
 
   - intent: "sprain"
-    keywords: ["sprain", "twisted ankle", "sprained", "injury"]
+    keywords: ["sprain", "twisted ankle", "rolled ankle"]
     question: "I have a sprain."
     answer: "Rest, ice, compression, and elevation (RICE)."
     disclaimer: "This is general advice. Seek medical care for severe injuries."
 
   - intent: "eye_infection"
-    keywords: ["eye infection", "red eye", "itchy eye", "eye pain"]
+    keywords: ["eye infection", "red eye", "itchy eye"]
     question: "My eye is red and itchy."
     answer: "Avoid touching the eye, rinse with clean water, and use a clean cloth."
     disclaimer: "This is general advice. See an eye doctor if symptoms worsen."
 
   - intent: "ear_pain"
-    keywords: ["ear pain", "earache", "my ear hurts", "ear infection"]
+    keywords: ["ear pain", "earache", "ear hurts"]
     question: "I have ear pain."
     answer: "Avoid inserting objects, use warm compresses, and seek medical advice if severe."
     disclaimer: "This is general advice."
-

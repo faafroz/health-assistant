@@ -14,21 +14,20 @@ LANG_CODES = {
     "Hindi": "hi",
     "Bengali": "bn",
     "Urdu": "ur",
-    "Chinese": "zh-cn",
+    "Chinese": "zh-cn",   # Google Translate uses zh-cn
     "Russian": "ru"
 }
 
-def translate_text(text, dest_language):
+def translate_text(text, dest_code, src_code=None):
     """
-    Translate text to the target Phase 1 language.
-    Fallback to English if translation fails.
+    Translate text into the target language code.
+    Example: 'ur' for Urdu, 'es' for Spanish.
+    If src_code is given, force translation from that language.
     """
-    if dest_language == "English":
-        return text
     try:
-        lang_code = LANG_CODES.get(dest_language, "en")
-        translated = translator.translate(text, dest=lang_code)
+        if dest_code == "en" and (src_code is None or src_code == "en"):
+            return text
+        translated = translator.translate(text, src=src_code, dest=dest_code)
         return translated.text
-    except Exception as e:
-        # fallback to English
-        return text
+    except Exception:
+        return text  # fallback if error
